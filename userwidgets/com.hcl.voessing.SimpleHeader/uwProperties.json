@@ -1,0 +1,203 @@
+{
+    "classname": "SimpleHeader",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fe58ac3ebc3242d5a65714be6569d823",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickLeft",
+                    "pw": {
+                        "displayName": "onClickLeft",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d8ca15a2046948f082a325e0bbe6b6f0",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g1727a0ddfe44bce94ab6c29151d8762",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickRight",
+                    "pw": {
+                        "displayName": "onClickRight",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d8ca15a2046948f082a325e0bbe6b6f0",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "c74ab449d9cc447ab2a7f85807ff559e",
+                    "originalPropertyKey": "targetForm",
+                    "propertyIndex": 6,
+                    "propertyKey": "targetForm",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "targetForm",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d8ca15a2046948f082a325e0bbe6b6f0",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jb29ae05a3a6467ebe81ba0b2354fa15",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "title",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d825191641b443a2a57ed3d666342d0f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gffe1ab7340848bdbebaa2a281d1f2eb",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "subtitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "subtitle",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblSubtitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f14b44d9861e4b3d8f810c8da82da28d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ea224ec7fde8456bba4b395addc00c9f",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "displaySubtitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "displaySubtitle",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxSubtitle",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ae440ff1e47244e89e6898c12660e80d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c4e25c2f9e224a7aabd657808cdd32df",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "displayShadow",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "displayShadow",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxShadow",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "d41b58f9075c43c18b8e0a162ea0c8e2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d856af2cd5c74924a555eba7a8f9e44d",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "iconLeft",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "iconLeft",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblLeft",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bad4a1202ec0480b81e15b2f0cab8105"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d257ed40b7bd4bd0856f92795e071ab2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "iconRight",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "iconRight",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblRight",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "i8284984c1f04f7bbb7055460bdda6e9"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}

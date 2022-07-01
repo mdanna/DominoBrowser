@@ -1,0 +1,47 @@
+{
+    "classname": "ReportData",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "report1",
+                    "group": "General",
+                    "kuid": "fc35092d55554fbc9e327917cebd079a",
+                    "originalPropertyKey": "reportKey",
+                    "propertyIndex": 1,
+                    "propertyKey": "reportKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "reportKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ab6849241d2e436d9e0bc2d140c0c50a",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}

@@ -1,0 +1,29 @@
+
+{
+/*
+    "NSAppTransportSecurity" :
+    {
+        "NSAllowsArbitraryLoads" : true ,
+        "NSExceptionDomains" :
+            {
+                "example.com" :
+                    {
+                        "NSIncludesSubdomains" : true ,
+                        "NSExceptionAllowsInsecureHTTPLoads" : true
+                    }
+            }
+    } ,
+ 
+    "NSCameraUsageDescription" : "This is a dummy description"
+*/
+    "NSCalendarsUsageDescription": "Usage Calendar",
+    "NSCameraUsageDescription": "Using Camera",
+    "NSContactsUsageDescription": "Using Contacts",
+    "NSLocationAlwaysUsageDescription": "Using Location Manager",
+    "NSLocationWhenInUseUsageDescription": "Using Location Manager",
+    "NSLocationUsageDescription": "Using Location Manager",
+    "NSPhotoLibraryUsageDescription": "Using Photo Library",
+    "NSSpeechRecognitionUsageDescription": "Using Speech Recognition",
+    "NSMicrophoneUsageDescription": "Using Microphone"
+}
+

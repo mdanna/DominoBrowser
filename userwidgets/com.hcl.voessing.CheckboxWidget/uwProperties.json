@@ -1,0 +1,158 @@
+{
+    "classname": "CheckboxWidget",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i11a8ebf60a340c6b6f88439f06cb665",
+                    "paramList": [],
+                    "propertyKey": "initComponent",
+                    "pw": {
+                        "displayName": "initComponent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b360178efb414d169ad008a762f0673a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "jcb580cd12a5472b83e6c0db729a900e",
+                    "originalPropertyKey": "fieldName",
+                    "propertyIndex": 3,
+                    "propertyKey": "fieldName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "fieldName",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b360178efb414d169ad008a762f0673a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "d4341e6b85094abf9ad32aa4aecaee0d",
+                    "originalPropertyKey": "recordKey",
+                    "propertyIndex": 4,
+                    "propertyKey": "recordKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "recordKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b360178efb414d169ad008a762f0673a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "c802186dd42a49e8a5a008a62a15c07d",
+                    "originalPropertyKey": "sectionKey",
+                    "propertyIndex": 5,
+                    "propertyKey": "sectionKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "sectionKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b360178efb414d169ad008a762f0673a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "ce5f4c1fab9d47dcbb3e835e8ff8701d",
+                    "originalPropertyKey": "reportKey",
+                    "propertyIndex": 6,
+                    "propertyKey": "reportKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "reportKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b360178efb414d169ad008a762f0673a",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h2de06abfbfa4389b2136e9902c4bb63",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "checked",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "checked",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxCheck",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ecca872f4b5e45e7ab6953ad3f268fe5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bec9a042697145968b6cc4268ef899ed",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "checkboxLabel",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "checkboxLabel",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblCheckbox",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d570f6c177ab437faacc94fb512ff77b"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}

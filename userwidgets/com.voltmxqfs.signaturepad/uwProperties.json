@@ -1,0 +1,84 @@
+{
+    "classname": "signaturepad",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ce203dda32b34ef6b238cf6ae411e8a9",
+                    "paramList": [],
+                    "propertyKey": "getSignature",
+                    "pw": {
+                        "displayName": "getSignature",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b6246509996f405690a9b2dca3267328",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "fc9b887841b2431c92125b1580913e3c",
+                    "paramList": [
+                        {
+                            "name": "base64"
+                        }
+                    ],
+                    "propertyKey": "setSignature",
+                    "pw": {
+                        "displayName": "setSignature",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b6246509996f405690a9b2dca3267328",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g9b4afddf4eb453ab022a7316d5e6e3b",
+                    "paramList": [],
+                    "propertyKey": "clearSignature",
+                    "pw": {
+                        "displayName": "clearSignature",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b6246509996f405690a9b2dca3267328",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "h1380e57810b4580b8e563425e8d60eb",
+                    "paramList": [],
+                    "propertyKey": "getSignatureAsync",
+                    "pw": {
+                        "displayName": "getSignatureAsync",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b6246509996f405690a9b2dca3267328",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.voltmxqfs",
+    "version": "1.0.2"
+}

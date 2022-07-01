@@ -1,0 +1,58 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "f3f0df47b6cd4cfc88f765e770be4a75",
+                    "formName": "frmLogin",
+                    "isStartupForm": true,
+                    "key": "f3f0df47b6cd4cfc88f765e770be4a75",
+                    "loc": "304 146.84526367187496",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "fb2ae8ba6fd84f25814b0f1e6ab9f460",
+                    "formName": "frmPhotoDetails",
+                    "isStartupForm": false,
+                    "key": "fb2ae8ba6fd84f25814b0f1e6ab9f460",
+                    "loc": "8 624.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "g582a9c245a041dfa72996841f457e26",
+                    "formName": "frmReport",
+                    "isStartupForm": false,
+                    "key": "g582a9c245a041dfa72996841f457e26",
+                    "loc": "8 1224.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "ad74eff258c64895be0f3d46b1a1a96e",
+                    "formName": "frmReportDetails",
+                    "isStartupForm": false,
+                    "key": "ad74eff258c64895be0f3d46b1a1a96e",
+                    "loc": "-73 184.84526367187496",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "a153f7d78b394bd38db9f2d1ad001377",
+                    "formName": "frmReportList",
+                    "isStartupForm": false,
+                    "key": "a153f7d78b394bd38db9f2d1ad001377",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "dbb8f9147fea4d549cb7a8153bff731b",
+                    "formName": "frmReportPdf",
+                    "isStartupForm": false,
+                    "key": "dbb8f9147fea4d549cb7a8153bff731b",
+                    "loc": "188 784.845263671875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

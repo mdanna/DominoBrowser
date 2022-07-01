@@ -1,0 +1,47 @@
+{
+    "classname": "Accordeon",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "report1",
+                    "group": "General",
+                    "kuid": "hf60eb5fcc9b42769fd995306f54f791",
+                    "originalPropertyKey": "reportKey",
+                    "propertyIndex": 2,
+                    "propertyKey": "reportKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "reportKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f37af241b2b94a6888a0efdbadc7a9ef",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}

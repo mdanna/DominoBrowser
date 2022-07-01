@@ -1,0 +1,112 @@
+{
+    "classname": "PhotoThumbnail",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ad599603de7544439f195f85abb9a1b0",
+                    "paramList": [
+                        {
+                            "name": "base64"
+                        }
+                    ],
+                    "propertyKey": "setPhoto",
+                    "pw": {
+                        "displayName": "setPhoto",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ebe0089bf25743c59cbca56c7bbf3970",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d6df5eea292e4dd9bc5a7149a1267ffb",
+                    "paramList": [],
+                    "propertyKey": "initComponent",
+                    "pw": {
+                        "displayName": "initComponent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ebe0089bf25743c59cbca56c7bbf3970",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "dee43d9ae66e4172891d33f76ba787cf",
+                    "originalPropertyKey": "recordKey",
+                    "propertyIndex": 1,
+                    "propertyKey": "recordKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "recordKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ebe0089bf25743c59cbca56c7bbf3970",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "g356ca9a70e24f6b9a94e30612ac401c",
+                    "originalPropertyKey": "sectionKey",
+                    "propertyIndex": 2,
+                    "propertyKey": "sectionKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "sectionKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ebe0089bf25743c59cbca56c7bbf3970",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "f2a167b54cbb4c7ab09ed9ca8bbc75d3",
+                    "originalPropertyKey": "reportKey",
+                    "propertyIndex": 3,
+                    "propertyKey": "reportKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "reportKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ebe0089bf25743c59cbca56c7bbf3970",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}

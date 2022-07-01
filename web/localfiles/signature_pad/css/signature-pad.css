@@ -1,0 +1,170 @@
+body { 
+  /*background: linear-gradient(to top, #C73746, #8A7967) fixed;*/
+  background-image : url('overlay_bg.png');
+  font-family: Helvetica, Sans-Serif;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+.clear {
+  border: 1px solid silver;
+  background-color:transparent;
+  color:black;
+  padding: 0;
+  padding-left:10px;
+  text-align:right;
+  margin: 0;
+  width: 75px;
+  height: 30px;
+}
+.clear:active{
+  outline:none;
+}
+.m-signature-pad {
+  position: absolute;
+  font-size: 10px;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  border: 0;
+  background-color: silver;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+}
+
+.m-signature-pad:before, .m-signature-pad:after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  width: 40%;
+  height: 10px;
+  left: 20px;
+  bottom: 10px;
+  background: silver;
+  -webkit-transform: skew(-3deg) rotate(-3deg);
+  -moz-transform: skew(-3deg) rotate(-3deg);
+  -ms-transform: skew(-3deg) rotate(-3deg);
+  -o-transform: skew(-3deg) rotate(-3deg);
+  transform: skew(-3deg) rotate(-3deg);
+  //box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.m-signature-pad:after {
+  left: auto;
+  right: 20px;
+  background-color: silver;
+  -webkit-transform: skew(3deg) rotate(3deg);
+  -moz-transform: skew(3deg) rotate(3deg);
+  -ms-transform: skew(3deg) rotate(3deg);
+  -o-transform: skew(3deg) rotate(3deg);
+  transform: skew(3deg) rotate(3deg);
+}
+
+.m-signature-pad--body {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 30px;
+  bottom: 20px;
+  border: 1px solid silver;
+  border-radius:4px;
+  background-color:silver;
+}
+
+.m-signature-pad--body
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background-color:silver;
+}
+.m-signature-pad--header {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 0px;
+  height: 30px;
+}
+
+.m-signature-pad--header
+.description {
+  color: #C3C3C3;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+.m-signature-pad--header
+.left, .right {
+  position: absolute;
+  top: 0;
+}
+
+.m-signature-pad--header
+.left {
+  left: 0;	
+}
+
+.m-signature-pad--header
+.right {
+  right: 0;
+}
+
+.m-signature-pad--footer {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  height: 60px;
+}
+
+.m-signature-pad--footer
+.description {
+  color: #C3C3C3;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+.m-signature-pad--footer
+.left, .right {
+  position: absolute;
+  bottom: 0;
+}
+
+.m-signature-pad--footer
+.left {
+  left: 0;	
+}
+
+.m-signature-pad--footer
+.right {
+  right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .m-signature-pad {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    min-width: 250px;
+    min-height: 140px;
+    background-color: silver;
+  }
+  #github {
+    display: none;
+  }
+}
+@media screen and (min-device-width: 500px) and (max-device-width: 1024px) {
+  .m-signature-pad {
+    margin: 10%;
+    background-color: silver;
+  }
+}

@@ -1,0 +1,206 @@
+{
+    "classname": "FieldReport",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e51dce39c1324760b8605b3cdb3ec2e8",
+                    "paramList": [],
+                    "propertyKey": "initComponent",
+                    "pw": {
+                        "displayName": "initComponent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fd38b701977b47ea935f71e829064532",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "jbc15b5ae222487bb35b2c0d591a9afe",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickReport",
+                    "pw": {
+                        "displayName": "onClickReport",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fd38b701977b47ea935f71e829064532",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jae101c9b31643009e152c78b3ca2f6f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "startTime",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "startTime",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblStartTime",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e31e32a7c361421caee0ea2d7d7efa8f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f09e21fb4cf54ac48c3f7dafe5728177",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "endTime",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "endTime",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblEndTime",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "dd043b05d65748d190ebac375f9694b4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gd364593a2c847aa8c85ae8973c20549",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "serviceType",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "serviceType",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblServiceType",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b2a04300719b4bdb8de8e18f5922f694"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d6d4bdf31ffe4b5e9d604ad9b22a0b60",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "completed",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "completed",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblCompleted",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b227ce8fe92e449e8887a92332d44fb2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "iaa1ad5298d748fd8aec70d9381d0989",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "reportKey",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "reportKey",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblFieldReportName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfbb16366e74817bb3bf6dbc9d9e93c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a3b64b0bb59b43aabbcc4a115043d693",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "project",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "project",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblProjectTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f5f8686c4c004fc5930b360c2fecf116"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f7c537773edd45489ac675fbe20ab6e0",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "supervisor",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "supervisor",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblSupervisor",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f65a23e277614893ace7bb0f767c5406"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}

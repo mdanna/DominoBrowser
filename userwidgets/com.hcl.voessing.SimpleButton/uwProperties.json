@@ -1,0 +1,84 @@
+{
+    "classname": "SimpleButton",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d3d2ad94d37d4cf4983ea19e72009dfd",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onButtonClick",
+                    "pw": {
+                        "displayName": "onButtonClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i904c063b9214b71becf7f9cc7782362",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fd0b05a4d5b2407b9cca44ceb1042994",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "skinLabel",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinLabel",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblButton",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bb187ba253cd4b0081953b712a107266"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b91321032ed8445597d8530a5c139858",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblButton",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bb187ba253cd4b0081953b712a107266"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}

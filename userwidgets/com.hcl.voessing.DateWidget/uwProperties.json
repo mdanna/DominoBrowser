@@ -1,0 +1,130 @@
+{
+    "classname": "DateWidget",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f72a79bae9b044608296d4d754dca6ef",
+                    "paramList": [],
+                    "propertyKey": "initComponent",
+                    "pw": {
+                        "displayName": "initComponent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c7dc900299f845e5b7a497e1851e83ca",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "fb90d20145fb4cf3b03c15c372a37715",
+                    "originalPropertyKey": "fieldName",
+                    "propertyIndex": 2,
+                    "propertyKey": "fieldName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "fieldName",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c7dc900299f845e5b7a497e1851e83ca",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "c3ad5d84e1854fd4ae513aa625ff8c36",
+                    "originalPropertyKey": "recordKey",
+                    "propertyIndex": 3,
+                    "propertyKey": "recordKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "recordKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c7dc900299f845e5b7a497e1851e83ca",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "c8a87208561b4a048b46c9dcc5281d6b",
+                    "originalPropertyKey": "sectionKey",
+                    "propertyIndex": 4,
+                    "propertyKey": "sectionKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "sectionKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c7dc900299f845e5b7a497e1851e83ca",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "fc533a38e82143268c63dd2dfa570bcd",
+                    "originalPropertyKey": "reportKey",
+                    "propertyIndex": 5,
+                    "propertyKey": "reportKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "reportKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c7dc900299f845e5b7a497e1851e83ca",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "c1586f50fcaa4b5aa683afead4accd3d",
+                    "originalPropertyKey": "date",
+                    "propertyIndex": 6,
+                    "propertyKey": "date",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "date",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c7dc900299f845e5b7a497e1851e83ca",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}

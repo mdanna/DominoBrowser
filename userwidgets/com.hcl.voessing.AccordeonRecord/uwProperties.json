@@ -1,0 +1,278 @@
+{
+    "classname": "AccordeonRecord",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c06af5b53ac349a299409e77a1607d4e",
+                    "paramList": [
+                        {
+                            "name": "open"
+                        }
+                    ],
+                    "propertyKey": "toggle",
+                    "pw": {
+                        "displayName": "toggle",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c185716b794f49b19863ce90e47d9cc5",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "cee9e0ea5fa1444bbfdda0d21a81cdfa",
+                    "paramList": [],
+                    "propertyKey": "initComponent",
+                    "pw": {
+                        "displayName": "initComponent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c185716b794f49b19863ce90e47d9cc5",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "hdde08a1f399447b8390e151b580b828",
+                    "paramList": [],
+                    "propertyKey": "addSignature",
+                    "pw": {
+                        "displayName": "addSignature",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c185716b794f49b19863ce90e47d9cc5",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aca0dbfd8c9e4ff6829d17e506a55738",
+                    "originalPropertyKey": "removeAll",
+                    "propertyKey": "removeAllWidgets",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "removeAllWidgets",
+                        "srcWidget": "flxWidgets",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a7ba11afd8b14ddaa5c66bb427e73ded",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j6f77cfbf6bc48b7b9624a5ff0793a85",
+                    "originalPropertyKey": "add",
+                    "propertyKey": "addWidget",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "addWidget",
+                        "srcWidget": "flxWidgets",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a7ba11afd8b14ddaa5c66bb427e73ded",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e8569e0c42704e67aa736a9ef1c3db75",
+                    "originalPropertyKey": "addPhoto",
+                    "propertyKey": "addPhoto",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "addPhoto",
+                        "srcWidget": "cmpPhotoList",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c48097699c1e402687ed953bd079acb6",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cf340d1c635948c89b6203b36c41f446",
+                    "originalPropertyKey": "removeAllPhotos",
+                    "propertyKey": "removeAllPhotos",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "removeAllPhotos",
+                        "srcWidget": "cmpPhotoList",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c48097699c1e402687ed953bd079acb6",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "f5de776d6bf1426dba3be799e9ffad28",
+                    "originalPropertyKey": "sectionKey",
+                    "propertyIndex": 1,
+                    "propertyKey": "sectionKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "sectionKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c185716b794f49b19863ce90e47d9cc5",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "j5474b27bc05404ebe07bcf16bd3085c",
+                    "originalPropertyKey": "pk",
+                    "propertyIndex": 5,
+                    "propertyKey": "pk",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "pk",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c185716b794f49b19863ce90e47d9cc5",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "f29b67a4f446448bb2dcc810ad6d6060",
+                    "originalPropertyKey": "reportKey",
+                    "propertyIndex": 6,
+                    "propertyKey": "reportKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "reportKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c185716b794f49b19863ce90e47d9cc5",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "j6ce50f375ee4c4b8a270b62cd8bae47",
+                    "originalPropertyKey": "open",
+                    "propertyIndex": 7,
+                    "propertyKey": "open",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "open",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "c185716b794f49b19863ce90e47d9cc5",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b263411195294f1494991bbe4c97c82d",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "title",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txtTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "he9d1c90c7304872b8bc30e791b55c6c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d13fd364f8874a1b9b2102c477b74cc0",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 9,
+                    "propertyKey": "showSignature",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "showSignature",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxSignature",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b595f36765384a1f830763d960394075"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e7fd56351ab944c48b207c2c08aeffe8",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 10,
+                    "propertyKey": "showPhotoList",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "showPhotoList",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxPhotoList",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "fdc602bf836d4ac785ab4549712d00cd"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}

@@ -1,0 +1,129 @@
+{
+    "classname": "MonthDay",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e68b1015ead944bca1f9d515cd3b83e3",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "skinWeekday",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinWeekday",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblMonthDayTop",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ed4ee5e7368d453aa7b3f7da21cccbbf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b0f9db60b207401786fb57b8305ef212",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "skinDay",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinDay",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblMonthDayBottom",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "cfe9c5ddeb074c488eee9abe3b9f2da8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g0c7cc75cdb145049b7c6b0db0369b86",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "skinMonthDay",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinMonthDay",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxMonthDay",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e1a5739b6a264640bdff8241255838b6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f36bf2d41d474421a1a5089ad81e9555",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "weekday",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "weekday",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblMonthDayTop",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ed4ee5e7368d453aa7b3f7da21cccbbf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jd29a14706e54772b7db2ea2a68f68d6",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "day",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "day",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblMonthDayBottom",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "cfe9c5ddeb074c488eee9abe3b9f2da8"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}

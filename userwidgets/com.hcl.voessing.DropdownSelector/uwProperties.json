@@ -1,0 +1,117 @@
+{
+    "classname": "DropdownSelector",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c37d889e6e9b4b84b1e159e6594413aa",
+                    "paramList": [],
+                    "propertyKey": "loadData",
+                    "pw": {
+                        "displayName": "loadData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cbd89c9193144ed88ca137e977a31277",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "d85873837d2e44d6b6dac58aee06a439",
+                    "originalPropertyKey": "widgetId",
+                    "propertyIndex": 1,
+                    "propertyKey": "widgetId",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "widgetId",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "cbd89c9193144ed88ca137e977a31277",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "b6a2480c2fc14d1a8807eb7b1036751b",
+                    "originalPropertyKey": "selection",
+                    "propertyIndex": 2,
+                    "propertyKey": "selection",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selection",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "cbd89c9193144ed88ca137e977a31277",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "value",
+                                "columnHeaderType": "text",
+                                "columnID": "value",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "b21103ab08944736b0e2251548054231"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "display",
+                                "columnHeaderType": "text",
+                                "columnID": "display",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "fc9b3df869144e3aabfa3ac183f2f29f"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "a242836215434c17b26db93827f44f01",
+                    "originalPropertyKey": "options",
+                    "propertyIndex": 3,
+                    "propertyKey": "options",
+                    "pw": {
+                        "displayName": "options",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "cbd89c9193144ed88ca137e977a31277",
+                    "type": "data grid",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}

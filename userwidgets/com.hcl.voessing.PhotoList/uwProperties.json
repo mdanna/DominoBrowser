@@ -1,0 +1,133 @@
+{
+    "classname": "PhotoList",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i81d85aaa634415aabcd9c616f717ba6",
+                    "paramList": [],
+                    "propertyKey": "initComponent",
+                    "pw": {
+                        "displayName": "initComponent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "j04dd2036c8446dfa4bc4f24e72df48a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f24b4aab7ad24716b4c1fc858779cb96",
+                    "originalPropertyKey": "add",
+                    "propertyKey": "addPhoto",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "addPhoto",
+                        "srcWidget": "flxPhotos",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b50d7b98080b46ec9d45bed70a341493",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c5df13b6bae340e08aeba085ff2d38e3",
+                    "originalPropertyKey": "removeAll",
+                    "propertyKey": "removeAllPhotos",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "removeAllPhotos",
+                        "srcWidget": "flxPhotos",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b50d7b98080b46ec9d45bed70a341493",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "aaaedd32873f451b9e20a85e43a63b0f",
+                    "originalPropertyKey": "recordKey",
+                    "propertyIndex": 1,
+                    "propertyKey": "recordKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "recordKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j04dd2036c8446dfa4bc4f24e72df48a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "a24b226b710249498f474d96460de813",
+                    "originalPropertyKey": "sectionKey",
+                    "propertyIndex": 2,
+                    "propertyKey": "sectionKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "sectionKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j04dd2036c8446dfa4bc4f24e72df48a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "ia804e693b154b3885e5367428d5b5ae",
+                    "originalPropertyKey": "reportKey",
+                    "propertyIndex": 3,
+                    "propertyKey": "reportKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "reportKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j04dd2036c8446dfa4bc4f24e72df48a",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}
