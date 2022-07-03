@@ -18,7 +18,7 @@ define(function() {
 
     initMonthDayButtons(){
       for(let i = 1; i <= 7; i++){
-        this.view[`monthDay${i}`].onClick = () => {
+        this.view[`monthDay${i}`].onSelect = () => {
           this.focusDate = `${this.view[`monthDay${i}`].day}/${this.view[`monthDay${i}`].month}/${this.view[`monthDay${i}`].year}`;
         };
       }
