@@ -5,17 +5,17 @@ define(function() {
       this.view.preShow = () => {
         if(!this.initDone){
           this.view.mapView.mapKey = globals.MAP_KEY;
-          
+
           this.view.cmpSimpleHeader.doLayout = () => {
             this.view.flxContent.height = `${this.view.frame.height - 110}dp`;
           };
-          
+
           this.view.flxDay.doLayout = () => {
             this.view.flxReports.height = `${this.view.flxDay.frame.height - 50}dp`;
           };
 
           this.view.cmpSimpleHeader.onClickLeft = () => this.view.cmpHamburgerMenu.toggle(true);
-          
+
           this.view.cmpHamburgerMenu.onItemSelected = (key) => {
             switch(key){
               case "logout":
@@ -25,7 +25,7 @@ define(function() {
                 break;
             }
           };
-          
+
           this.view.flxTabHeaderLeft.onClick = () => {
             this.view.lblIconCalendarView.skin = 'sknLblIconBlue120';
             this.view.lblCalendarView.skin = 'sknLblBlue100';
@@ -36,7 +36,7 @@ define(function() {
             this.view.flxLineRight.isVisible = false;
             this.view.flxMapView.isVisible = false;
           };
-          
+
           this.view.flxTabHeaderRight.onClick = () => {
             this.view.lblIconMapView.skin = 'sknLblIconBlue120';
             this.view.lblMapView.skin = 'sknLblBlue100';
@@ -48,49 +48,67 @@ define(function() {
             this.view.flxCalendarView.isVisible = false;
           };
 
+          this.view.cmpWeekView.onDaySelect = ({day, month, year}) => {
+            this.loadData({day: parseInt(day), month: parseInt(month), year: parseInt(year)});
+          };
+
           this.initDone = true;
         }
-        
-        this.loadData();
+
+        const focusDateComponents = this.view.cmpWeekView.focusDate.split('/');
+        this.loadData({
+          day: parseInt(focusDateComponents[0]),
+          month: parseInt(focusDateComponents[1]),
+          year: parseInt(focusDateComponents[2]),
+        });
       };
     },
-    
+
     initGettersSetters() {},
-    
-    loadData() {
+
+    loadData({day, month, year}) {
       this.view.flxReports.removeAll();
       const locationData = [];
       var reportData = [];
       Object.keys(data.values).forEach((reportKey) => {
         const fieldReportData = data.values[reportKey].report_data;
-        const fieldReport = new com.hcl.voessing.FieldReport({
-          id: `fieldReport${new Date().getTime()}`
-        },{},{});
-        fieldReport.initComponent();
-        fieldReport.reportKey = reportKey;
-        fieldReport.startTime = fieldReportData.startTime;
-        fieldReport.endTime = fieldReportData.endTime;
-        fieldReport.serviceType = fieldReportData.serviceType;
-        fieldReport.completed = fieldReportData.status === 'Complete';
-        fieldReport.project = fieldReportData.project;
-        fieldReport.supervisor = fieldReportData.supervisor;
-        fieldReport.onClickReport = () => new voltmx.mvc.Navigation('frmReport').navigate({reportKey});
-        
-        locationData.push({
-          lat: fieldReportData.latitude,
-          lon: fieldReportData.longitude,
-          showCallout: false
-        });
-        reportData.push(fieldReport);
+
+        const reportDateComponents = fieldReportData.reportDate.split('/');
+        if(day === parseInt(reportDateComponents[0]) &&
+           month === parseInt(reportDateComponents[1]) &&
+           year === parseInt(reportDateComponents[2])){
+          const fieldReport = new com.hcl.voessing.FieldReport({
+            id: `fieldReport${new Date().getTime()}`
+          },{},{});
+          fieldReport.initComponent();
+          fieldReport.reportKey = reportKey;
+          fieldReport.startTime = fieldReportData.startTime;
+          fieldReport.endTime = fieldReportData.endTime;
+          fieldReport.serviceType = fieldReportData.serviceType;
+          fieldReport.completed = fieldReportData.status === 'Complete';
+          fieldReport.project = fieldReportData.project;
+          fieldReport.supervisor = fieldReportData.supervisor;
+          fieldReport.onClickReport = () => new voltmx.mvc.Navigation('frmReport').navigate({reportKey});
+
+          locationData.push({
+            lat: fieldReportData.latitude,
+            lon: fieldReportData.longitude,
+            showCallout: false
+          });
+          reportData.push(fieldReport);
+        }
+
       });
+
+
       reportData.sort(function(a,b) {
         var timePartsA = a.startTime.split(":");
-		var timePartsB = b.startTime.split(":");
+        var timePartsB = b.startTime.split(":");
         return ((timePartsA[0] * 60) + timePartsA[1])>((timePartsB[0] * 60) + timePartsB[1]);
       });
-      for(var rep in reportData) {
+      Object.keys(reportData).forEach((rep) => {
         this.view.flxReports.add(reportData[rep]);
-      }
+      });
       this.view.mapView.locationData = locationData;
       this.view.mapView.zoomLevel = 11;
     }

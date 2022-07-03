@@ -18,28 +18,8 @@ define(function() {
 
     initMonthDayButtons(){
       for(let i = 1; i <= 7; i++){
-
         this.view[`monthDay${i}`].onClick = () => {
-
-          this.view.lblDay.text = this.view[`monthDay${i}`].day;
-          this.view.lblWeekday.text = dateUtils.getWeekDay(new Date(parseInt(this.view[`monthDay${i}`].year), 
-                                                                    parseInt(this.view[`monthDay${i}`].month - 1), 
-                                                                    parseInt(this.view[`monthDay${i}`].day))
-                                                           .getDay()).substring(0, 3);
-          this.view.lblMonthYear.text = `${dateUtils.getMonth(parseInt(this.view[`monthDay${i}`].month))} ${this.view[`monthDay${i}`].year}`;
-
-
-          for(let j = 1; j <= 7; j++){
-            if(j === i){
-              this.view[`monthDay${j}`].skinDay = 'sknLblWhite80';
-              this.view[`monthDay${j}`].skinWeekday = 'sknLblWhite80'; 
-              this.view[`monthDay${j}`].skinMonthDay = 'sknFlxButtonBlue';
-            } else {
-              this.view[`monthDay${j}`].skinDay = 'sknLblGrey80';
-              this.view[`monthDay${j}`].skinWeekday = 'sknLblGrey80'; 
-              this.view[`monthDay${j}`].skinMonthDay = 'sknFlxWhite';
-            }
-          }
+          this.focusDate = `${this.view[`monthDay${i}`].day}/${this.view[`monthDay${i}`].month}/${this.view[`monthDay${i}`].year}`;
         };
       }
 
@@ -109,7 +89,15 @@ define(function() {
             monthDay.skinMonthDay = 'sknFlxWhite';
           }
         }
+        
+        this.onDaySelect({
+          day: dateComponents[0],
+          month: dateComponents[1],
+          year: dateComponents[2],
+        });
       });
-    }
+    },
+    
+    onDaySelect(){}
   };
 });

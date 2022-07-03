@@ -6,7 +6,21 @@
             "passthrough": []
         },
         "events": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d64d7ad678ba411c87dacde66bb8b054",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onDaySelect",
+                    "pw": {
+                        "displayName": "onDaySelect",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c41e2aa119474cb992c3b190577dbe70",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "groups": {
