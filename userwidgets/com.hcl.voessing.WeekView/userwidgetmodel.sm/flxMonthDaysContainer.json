@@ -2,11 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "100%"
     },
     "_margin_": [
         0,
@@ -29,25 +25,30 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "lblMonthYear"
+        "flxMonthDaysWithArrows",
+        "flxSeparator"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxMonthYear",
+    "id": "flxMonthDaysContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c3609df45c3943adbeab6c090f59cede",
+    "kuid": "daafd516b2cf473eae0cef53a7444532",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxWeekdayMonthYear",
+    "parent": "flxWeekBottom",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -1,8 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -14,7 +16,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -29,42 +31,30 @@
     },
     "_width_": {
         "type": "string",
-        "value": "86%"
+        "value": "14.29%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
+    "containerweight": 0,
+    "data": {
+        "day": "26",
+        "skinDay": "s6944bd1627c4d439d10aabf324b59cb",
+        "skinMonthDay": "s4a76c78f4ba4806abc4f7d747b5cf72",
+        "skinWeekday": "s6944bd1627c4d439d10aabf324b59cb",
+        "weekday": "T"
     },
-    "children": [
-        "monthDay23",
-        "monthDay24",
-        "monthDay25",
-        "monthDay26",
-        "monthDay27",
-        "monthDay28",
-        "monthDay29"
-    ],
-    "clipbounds": true,
-    "containerweight": 100,
-    "enablescrolling": true,
-    "id": "flxMonthDays",
+    "id": "monthDay4",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f6969cd85ba14d048ffb14343b0e5869",
-    "layouttype": 3,
-    "name": "kony.ui.FlexContainer",
-    "parent": "flxMonthDaysContainer",
+    "kuid": "c6530edf8ec34f4899bd55ce10696dcd",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMonthDays",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "sourceUserWidget": "gd09686704354a148f3d73cd370efefe",
+    "wType": "UserWidgetInstance",
     "zindex": 1
 }

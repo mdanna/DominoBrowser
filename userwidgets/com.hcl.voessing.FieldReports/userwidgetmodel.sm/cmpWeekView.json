@@ -1,8 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "20%"
     },
     "_left_": {
         "type": "string",
@@ -14,7 +16,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -25,37 +27,28 @@
     "_skin_": "s67ba8be7863416db5b99c64d2a8f54e",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "cmpWeekView",
-        "flxDay"
-    ],
-    "clipbounds": true,
-    "containerweight": 100,
-    "enablescrolling": true,
-    "id": "flxCalendarView",
+    "containerweight": 0,
+    "data": {},
+    "id": "cmpWeekView",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bf7f926fda744b83a79d51e38edfdc78",
-    "layouttype": 4,
-    "name": "kony.ui.FlexContainer",
-    "parent": "flxContent",
+    "kuid": "g23f63c234f14e7a87aba753006523e2",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxCalendarView",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "sourceUserWidget": "c41e2aa119474cb992c3b190577dbe70",
+    "wType": "UserWidgetInstance",
     "zindex": 1
 }

@@ -1,0 +1,47 @@
+{
+    "classname": "WeekView",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "df39f2930b12443c8e179f3169396b7f",
+                    "originalPropertyKey": "focusDate",
+                    "propertyIndex": 1,
+                    "propertyKey": "focusDate",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "focusDate",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c41e2aa119474cb992c3b190577dbe70",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.voessing",
+    "version": "1.0.0"
+}

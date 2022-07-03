@@ -42,11 +42,11 @@
         "skinWeekday": "s6944bd1627c4d439d10aabf324b59cb",
         "weekday": "F"
     },
-    "id": "monthDay27",
+    "id": "monthDay5",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "cbb8273e001e435abe86e89ed8809b9c",
+    "kuid": "b3614171e4a34848922f3a8346ea1534",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "flxMonthDays",

@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "50%"
     },
     "_left_": {
         "type": "string",
@@ -25,7 +25,7 @@
     "_skin_": "s67ba8be7863416db5b99c64d2a8f54e",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -35,20 +35,19 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "cmpWeekView",
-        "flxDay"
+        "flxMonthDaysContainer"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxCalendarView",
+    "id": "flxWeekBottom",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bf7f926fda744b83a79d51e38edfdc78",
+    "kuid": "f10264b71fdb4b7eb1e02c0b3364d96f",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContent",
+    "parent": "WeekView",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

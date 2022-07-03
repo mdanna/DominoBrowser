@@ -16,7 +16,42 @@
             "widgets": []
         },
         "properties": {
-            "custom": [],
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "d8a535c174064baf8e7cf7b0cec97758",
+                    "originalPropertyKey": "month",
+                    "propertyIndex": 6,
+                    "propertyKey": "month",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "month",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "gd09686704354a148f3d73cd370efefe",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "ibdef60a2a7e40f4ae0c76dd3c0bc525",
+                    "originalPropertyKey": "year",
+                    "propertyIndex": 7,
+                    "propertyKey": "year",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "year",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "gd09686704354a148f3d73cd370efefe",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
             "passthrough": [
                 {
                     "access": "Enable",

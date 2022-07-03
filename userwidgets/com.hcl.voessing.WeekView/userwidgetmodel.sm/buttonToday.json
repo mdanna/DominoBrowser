@@ -4,7 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
@@ -24,37 +24,42 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s67ba8be7863416db5b99c64d2a8f54e",
+    "_skin_": "s97435be78db4ceebe91c19dd020aa93",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "14.29%"
+        "value": "80dp"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 0,
     "data": {
-        "day": "29",
-        "skinDay": "s6944bd1627c4d439d10aabf324b59cb",
-        "skinMonthDay": "s4a76c78f4ba4806abc4f7d747b5cf72",
-        "skinWeekday": "s6944bd1627c4d439d10aabf324b59cb",
-        "weekday": "S"
+        "skinLabel": "sae28733783b471eb206d4a4db7bc06b",
+        "text": "Today"
     },
-    "id": "monthDay29",
+    "id": "buttonToday",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g74f11d153f94ee191754405a2fec6df",
+    "kuid": "a288db86444b4788b55704d88f6c52a7",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxMonthDays",
+    "parent": "flxWeekTopRight",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "gd09686704354a148f3d73cd370efefe",
+    "sourceUserWidget": "i904c063b9214b71becf7f9cc7782362",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }

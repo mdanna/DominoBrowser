@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "50%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -25,7 +25,7 @@
     "_skin_": "s67ba8be7863416db5b99c64d2a8f54e",
     "_top_": {
         "type": "string",
-        "value": "39dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -34,25 +34,21 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "flxWeekday",
-        "flxMonthYear"
+        "lblDay",
+        "flxWeekdayMonthYear"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxWeekdayMonthYear",
+    "id": "flxWeekTopLeft",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "debe4c9d58ea4a89bfef208a7b4e5278",
-    "layouttype": 4,
+    "kuid": "id4992cd65304da6a7cd20e490a398c8",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxWeekTopLeft",
+    "parent": "flxWeekTop",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

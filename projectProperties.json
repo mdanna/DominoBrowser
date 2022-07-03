@@ -227,7 +227,7 @@
         },
         "wType": "Appmenu"
     },
-    "appnamekey": "VoessingDemo",
+    "appnamekey": "DominoBrowser",
     "appointments": "false",
     "apppackagekey": "com.hcl.DominoBrowser",
     "apptitle": "",
@@ -704,6 +704,7 @@
     },
     "proximity": "false",
     "pushcertificatetype": "",
+    "pwaUrl": "",
     "read_device_identifying_information": "false",
     "referenceWidth": "375",
     "registerForDeepLink": {

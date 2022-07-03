@@ -17,12 +17,12 @@
     ],
     "_padding_": [
         0,
-        2,
+        0,
         0,
         0
     ],
-    "_skin_": "s6944bd1627c4d439d10aabf324b59cb",
-    "_text_": "May 2022",
+    "_skin_": "s5d4d83e24dc4e45b263e2eaae1e1449",
+    "_text_": "<",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -40,8 +40,8 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 1,
-    "id": "lblMonthYear",
+    "contentalignment": 5,
+    "id": "lblLeft",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,9 +55,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c0f9bf4299f6409586b4d91d6c896161",
+    "kuid": "f1e2f181404b433f88d4f4a89a4cd141",
     "name": "kony.ui.Label",
-    "parent": "flxMonthYear",
+    "parent": "flxArrowLeft",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
