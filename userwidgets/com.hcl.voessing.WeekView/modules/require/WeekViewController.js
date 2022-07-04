@@ -64,13 +64,16 @@ define(function() {
           this._focusDate = `${today.getDate()}/${today.getMonth() + 1}/${today.getFullYear()}`;
         }
         const dateComponents = this._focusDate.split('/');
-        const {weekNumber, weekDays} = dateUtils.getDateInfo(dateComponents[2], dateComponents[1], dateComponents[0]);
+        const day = parseInt(dateComponents[0]);
+        const month = parseInt(dateComponents[1]);
+        const year = parseInt(dateComponents[2]);
+        const {weekNumber, weekDays} = dateUtils.getDateInfo(year, month, day);
         this.weekNumber = weekNumber;
-        this.year = dateComponents[2];
+        this.year = year;
 
         this.view.lblDay.text = dateComponents[0];
-        this.view.lblWeekday.text = dateUtils.getWeekDay(new Date(dateComponents[2], dateComponents[1] - 1, dateComponents[0]).getDay()).substring(0, 3);
-        this.view.lblMonthYear.text = `${dateUtils.getMonth(parseInt(dateComponents[1]))} ${dateComponents[2]}`;
+        this.view.lblWeekday.text = dateUtils.getWeekDay(new Date(year, month - 1, day).getDay()).substring(0, 3);
+        this.view.lblMonthYear.text = `${dateUtils.getMonth(month)} ${year}`;
 
         for(let i = 0; i < 7; i++){
           const monthDay = this.view[`monthDay${i + 1}`];
@@ -91,9 +94,9 @@ define(function() {
         }
         
         this.onDaySelect({
-          day: dateComponents[0],
-          month: dateComponents[1],
-          year: dateComponents[2],
+          day: day,
+          month: month,
+          year: year,
         });
       });
     },

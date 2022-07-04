@@ -10,9 +10,14 @@ const dateUtils = {
 
     getDateInfo(year, month, day){
         const inputDate = new Date(year, month - 1, day);
-        const dayOfWeek = inputDate.getDay();
+        const dayOfWeek = inputDate.getDay() || 7;
+        const dayToNextMonday = (8 - dayOfWeek) % 7;    
+        const dayFromPrevMonday = (7 - dayToNextMonday) % 7;
+        const prevMonday = new Date(inputDate.valueOf() - (dayFromPrevMonday * dateUtils.MILLISEC_PER_DAY));
+      
         const firstMonday = dateUtils.getFirstMonday(year);
-        var numberOfDays = parseInt(Math.floor((inputDate - firstMonday) / dateUtils.MILLISEC_PER_DAY));
+        var numberOfDays = parseInt(Math.floor((prevMonday - firstMonday) / dateUtils.MILLISEC_PER_DAY));
+      
         var weekNumber = inputDate >= firstMonday ? Math.ceil((dayOfWeek + 1 + numberOfDays) / 7) : 0;
 
         return {
@@ -115,10 +120,5 @@ const dateUtils = {
     }
     return ret;
   }
-
-  
-  
-    
-
 };
 
