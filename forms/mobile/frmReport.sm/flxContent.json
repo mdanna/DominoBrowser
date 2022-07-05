@@ -42,6 +42,7 @@
     },
     "children": [
         "fieldServiceType",
+        "fieldEngineerName",
         "fieldAddress",
         "mapLocation",
         "fieldScheduledAt",

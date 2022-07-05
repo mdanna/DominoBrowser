@@ -15,6 +15,7 @@ define({
       
       const fieldReport = data.values[this.navigationContext.reportKey].report_data;
       this.view.fieldServiceType.text = fieldReport.serviceType;
+      this.view.fieldEngineerName.text = fieldReport.name;
       this.view.fieldAddress.text = fieldReport.address;
       this.view.fieldScheduledAt.text = `${fieldReport.reportDate} at ${fieldReport.startTime}`;
       this.view.fieldSupervisor.text = fieldReport.supervisor;
