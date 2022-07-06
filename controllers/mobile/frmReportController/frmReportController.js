@@ -3,12 +3,12 @@ define({
   onViewCreated(){
     this.view.init = () => {
       this.view.buttonFieldReport.onButtonClick = () => new voltmx.mvc.Navigation('frmReportDetails').navigate({reportKey: this.navigationContext.reportKey});
-
+      
       this.view.cmpSimpleHeader.doLayout = () => {
         this.view.flxContent.height = `${this.view.frame.height - 170}dp`;
       };
     };
-
+    
     this.view.preShow = () => {
       this.view.cmpSimpleHeader.title = `Field Report ${this.navigationContext.reportKey}`;
       this.view.cmpSimpleHeader.subtitle = `Project ${globals.getProject(this.navigationContext.reportKey)}`;

@@ -67,6 +67,8 @@ define(function() {
     initGettersSetters() {},
 
     loadData({day, month, year}) {
+      voltmx.application.showLoadingScreen(null, '', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
+      
       this.view.flxReports.removeAll();
       const locationData = [];
       var reportData = [];
@@ -106,11 +108,15 @@ define(function() {
         var timePartsB = b.startTime.split(":");
         return ((timePartsA[0] * 60) + timePartsA[1])>((timePartsB[0] * 60) + timePartsB[1]);
       });
+      
       Object.keys(reportData).forEach((rep) => {
         this.view.flxReports.add(reportData[rep]);
       });
+      
       this.view.mapView.locationData = locationData;
       this.view.mapView.zoomLevel = 11;
+      
+      voltmx.application.dismissLoadingScreen();
     }
   };
 });
